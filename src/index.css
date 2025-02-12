@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Kumbh Sans", serif;
+}
+
+body {
+    background-color: #141414;
+}
+header ul a.active {
+    background-color: #141414;
+    color: #fff;
+    border-color: #333333;
+}
+
+
+@theme {
+
+    --color-yellow-55: #FFD11A;
+    --color-yellow-60: #FFD633;
+    --color-yellow-70: #FFE066;
+    --color-yellow-80: #FFEB99;
+    --color-yellow-90: #FFF5CC;
+    --color-yellow-95: #FFFAE5;
+    --color-yellow-97: #FFFCF0;
+    --color-yellow-99: #FBFBFE;
+
+
+    --color-dark-8: #141414;
+    --color-dark-10: #1A1A1A;
+    --color-dark-15: #262626;
+    --color-dark-20: #333333;
+    --color-dark-25: #404040;
+    --color-dark-30: #4D4D4D;
+    --color-dark-35: #595959;
+    --color-dark-40: #666666;
+
+
+    --color-gray-50: #7E7E81;
+    --color-gray-60: #98989A;
+    --color-gray-70: #B3B3B3;
+    --color-gray-80: #CCCCCC;
+    --color-gray-90: #E4E4E7;
+    --color-gray-95: #F1F1F3;
+    --color-gray-97: #F7F7F8;
+    --color-gray-99: #FCFCFD;
+
+    --color-gr1:hsl(257, 92%, 60%);
+    --color-gr2: rgba(112, 59, 247, 0);
+
+    --color-buttonbg: rgba(255, 255, 255, 0.1);
+
+
+    --color-footerlogo1: rgba(26, 26, 26, 1);
+    --color-footerlogo2: rgba(26, 26, 26, 0);
+    --color-footerborder1: rgba(38, 38, 38, 1);
+    --color-footerborder2: rgba(38, 38, 38, 0);
+
+
+    --color-propertygr1: rgba(38, 38, 38, 1);
+    --color-propertygr2: rgba(38, 38, 38, 0);
+ 
+ 
+ 
+ 
+     --spacing-0_5: 2px;
+     --spacing-1_5: 6px;
+     --spacing-1_9: 9px;
+     --spacing-2_5: 10px;
+     --spacing-3_5: 14px;
+     --spacing-4_5: 16px;
+     --spacing-4_8: 18px;
+     --spacing-5_3: 23px;
+     --spacing-6_5: 25px;
+     --spacing-6_6: 26px;
+     --spacing-7_5: 30px;
+     --spacing-8_5: 34px;
+     --spacing-10_5: 42px;
+     --spacing-10_6: 44px;
+     --spacing-40_2: 162px;
+     --spacing-12_5: 50px;
+     --spacing-12_6: 54px;
+     --spacing-14_5: 60px;
+     --spacing-14_7: 62px;
+     --spacing-16_5: 70px;
+     --spacing-24_5: 100px;
+     --spacing-24_6: 120px;
+     --spacing-33: 132px;
+     --spacing-33: 132px;
+     --spacing-36_5: 150px;
+     --spacing-36_6: 162px;
+     --spacing-20_2: 82px;
+
+     --tracking-3: -3%;
+ 
+ 
+ 
+ 
+     --leading-130: 130%;
+     --leading-120: 120%;
+     --leading-150: 150%;
+ 
+     --container-wrapper: 1920px;
+ 
+     --breakpoint-xll: 1440px;
+     --breakpoint-3xl: 1920px;
+ 
+     
+     --shadow-ss2:0px 0px 0px 4px #191919;
+     --shadow-ss1:0px 0px 0px 6px #191919;
+     --ease-bounce: cubic-bezier(0.04, 1.25, 1, 1);
+ }
