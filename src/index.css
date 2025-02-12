@@ -113,3 +113,31 @@ header ul a.active {
      --shadow-ss1:0px 0px 0px 6px #191919;
      --ease-bounce: cubic-bezier(0.04, 1.25, 1, 1);
  }
+
+ .black {
+    display: flex;
+    color: var(--color-gray-60);
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 14px 20px;
+
+ }
+
+ @media (min-width:1400px) {
+    .black {
+        
+    }
+    
+ }
+ @media (min-width:1920px) {
+    .black {
+        padding: 18px 24px;
+        font-size: 18px;
+    }
+    
+ }

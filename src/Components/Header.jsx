@@ -6,6 +6,10 @@ import logol from "../assets/logol.png";
 
 function Header() {
   const [showmanu, setshowmanu] = useState(false);
+  function hidden () {
+    setshowmanu= false;
+  }
+
   return (
     <>
       <section className="max-w-wrapper m-auto border-b border-dark-10 bg-dark-8 relative z-[500]">
@@ -39,7 +43,7 @@ function Header() {
         <ul
           className={`xll:hidden absolute w-full flex flex-col items-center left-0 top-full gap-6 bg-dark-10 py-5 z-40 transition-all ease-in-out duration-400  ${
             showmanu ? "translate-x-0" : "translate-x-[-200%] xll:translate-x-0"
-          }`}
+          } border-t border-dark-15`}
         >
           <li>
             <NavLink
@@ -88,7 +92,7 @@ function Header() {
           </li>
         </ul>
         <div className="flex justify-between items-center">
-          <Link to="/">
+          <Link onClick={hidden} to="/">
             <img src={logom} alt="brand logo" className="block xll:hidden" />
             <img
               src={logol}
