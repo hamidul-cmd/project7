@@ -13,7 +13,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Features
                 </a>
@@ -21,7 +21,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Blogs
                 </a>
@@ -29,11 +29,11 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 relative w-fit"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 relative w-fit hover:text-yellow-55 transition-all duration-200 ease-in-out group"
                 >
                   Resources
                   <div className="absolute border border-dark-15 rounded-sm top-0 left-full py-0.5 px-2.5 translate-x-[8px] 3xl:py-1 3xl:px-3 3xl:rounded-md">
-                    <span className="text-[12px] leading-150 text-white 3xl:text-base 3xl:leading-150 tracking-[-3%]">
+                    <span className="text-[12px] leading-150 text-white 3xl:text-base 3xl:leading-150 tracking-[-3%] group-hover:text-yellow-55 transition-all duration-200 ease-in-out">
                       New
                     </span>
                   </div>
@@ -42,7 +42,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Testimonials
                 </a>
@@ -50,7 +50,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Contact Us
                 </a>
@@ -58,7 +58,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Newsletter
                 </a>
@@ -73,7 +73,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Trending Stories
                 </a>
@@ -81,7 +81,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Featured Videos
                 </a>
@@ -89,7 +89,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Technology
                 </a>
@@ -97,7 +97,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Health
                 </a>
@@ -105,7 +105,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Politics
                 </a>
@@ -113,7 +113,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Environment
                 </a>
@@ -128,7 +128,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Quantum Computing
                 </a>
@@ -136,7 +136,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   AI Ethics
                 </a>
@@ -144,7 +144,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Space Exploration
                 </a>
@@ -152,11 +152,11 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 relative w-fit"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 relative w-fit hover:text-yellow-55 transition-all duration-200 ease-in-out group"
                 >
                   Biotechnology
                   <div className="absolute border border-dark-15 rounded-sm top-0 left-full py-0.5 px-2.5 translate-x-[8px] 3xl:py-1 3xl:px-3 3xl:rounded-md">
-                    <span className="text-[12px] leading-150 text-white 3xl:text-base 3xl:leading-150 tracking-[-3%]">
+                    <span className="text-[12px] leading-150 text-white 3xl:text-base 3xl:leading-150 tracking-[-3%] group-hover:text-yellow-55 transition-all duration-200 ease-in-out">
                       New
                     </span>
                   </div>
@@ -165,7 +165,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Renewable Energy
                 </a>
@@ -173,7 +173,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   Biohacking
                 </a>
@@ -188,7 +188,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   AI Revolution
                 </a>
@@ -196,11 +196,11 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 relative w-fit"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 relative w-fit hover:text-yellow-55 transition-all duration-200 ease-in-out group"
                 >
                   AI Revolution
                   <div className="absolute border border-dark-15 rounded-sm top-0 left-full py-0.5 px-2.5 translate-x-[8px] 3xl:py-1 3xl:px-3 3xl:rounded-md">
-                    <span className="text-[12px] leading-150 text-white 3xl:text-base 3xl:leading-150 tracking-[-3%]">
+                    <span className="text-[12px] leading-150 text-white 3xl:text-base 3xl:leading-150 tracking-[-3%] group-hover:text-yellow-55 transition-all duration-200 ease-in-out">
                       New
                     </span>
                   </div>
@@ -209,7 +209,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   TechTalk AI
                 </a>
@@ -217,7 +217,7 @@ function Footer() {
               <li>
                 <a
                   href=""
-                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130"
+                  className="block text-sm leading-130 3xl:text-lg 3xl:leading-130 hover:text-yellow-55 transition-all duration-200 ease-in-out"
                 >
                   AI Conversations
                 </a>
@@ -232,9 +232,9 @@ function Footer() {
               <li className="w-fit">
                 <a
                   href=""
-                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg"
+                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg hover:scale-105 transition-all duration-200 ease-in-out group"
                 >
-                  <span className="tracking-[-5%]">Whitepapers</span>
+                  <span className="tracking-[-5%] group-hover:text-yellow-55 transition-all duration-300 ease-in-out">Whitepapers</span>
                   <div>
                     <svg
                       className="h-4.8 w-4.8 3xl:h-5 3xl:w-5"
@@ -255,9 +255,9 @@ function Footer() {
               <li className="w-fit">
                 <a
                   href=""
-                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg"
+                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg hover:scale-105 transition-all duration-200 ease-in-out group"
                 >
-                  <span className="tracking-[-5%]">Ebooks</span>
+                  <span className="tracking-[-5%] group-hover:text-yellow-55 transition-all duration-300 ease-in-out">Ebooks</span>
                   <div>
                     <svg
                       className="h-4.8 w-4.8 3xl:h-5 3xl:w-5"
@@ -278,9 +278,9 @@ function Footer() {
               <li className="w-fit">
                 <a
                   href=""
-                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg"
+                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg hover:scale-105 transition-all duration-200 ease-in-out group"
                 >
-                  <span className="tracking-[-5%]">Reports</span>
+                  <span className="tracking-[-5%] group-hover:text-yellow-55 transition-all duration-300 ease-in-out">Reports</span>
                   <div>
                     <svg
                       className="h-4.8 w-4.8 3xl:h-5 3xl:w-5"
@@ -301,9 +301,9 @@ function Footer() {
               <li className="w-fit">
                 <a
                   href=""
-                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg"
+                  className="text-sm leading-150 flex items-center gap-[2px] px-3.5 py-2 border border-dark-15 rounded-md tracking-[-3%] 3xl:py-2.5 3xl:px-4 3xl:text-lg 3xl:leading-150 3xl:gap-2.5 3xl:rounded-lg hover:scale-105 transition-all duration-200 ease-in-out group"
                 >
-                  <span className="tracking-[-5%]">Research Papers</span>
+                  <span className="tracking-[-5%] group-hover:text-yellow-55 transition-all duration-300 ease-in-out">Research Papers</span>
                   <div>
                     <svg
                       className="h-4.8 w-4.8 3xl:h-5 3xl:w-5"
