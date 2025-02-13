@@ -127,6 +127,17 @@ header ul a.active {
     padding: 14px 20px;
 
  }
+ .gotop {
+    animation: gotop 1.2s linear infinite alternate-reverse;
+ }
+ @keyframes gotop {
+    0% {
+        transform: translateY(-0.5rem);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+ }
 
  @media (min-width:1400px) {
     .black {

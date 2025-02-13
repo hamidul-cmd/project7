@@ -6,9 +6,12 @@ import logol from "../assets/logol.png";
 
 function Header() {
   const [showmanu, setshowmanu] = useState(false);
-  function hidden () {
-    setshowmanu= false;
+  function hidden() {
+    setshowmanu = false;
   }
+  const gotop = () => {
+    window.scrollTo({ top: 0, left: 0 });
+  };
 
   return (
     <>
@@ -45,7 +48,7 @@ function Header() {
             showmanu ? "translate-x-0" : "translate-x-[-200%] xll:translate-x-0"
           } border-t border-dark-15`}
         >
-          <li>
+          <li onClick={gotop}>
             <NavLink
               to="/"
               onClick={() => setshowmanu(!showmanu)}
@@ -54,7 +57,7 @@ function Header() {
               Home
             </NavLink>
           </li>
-          <li>
+          <li onClick={gotop}>
             <NavLink
               to="/news"
               onClick={() => setshowmanu(!showmanu)}
@@ -63,7 +66,7 @@ function Header() {
               News
             </NavLink>
           </li>
-          <li>
+          <li onClick={gotop}>
             <NavLink
               to="/podcuste"
               onClick={() => setshowmanu(!showmanu)}
@@ -72,7 +75,7 @@ function Header() {
               Podcasts
             </NavLink>
           </li>
-          <li>
+          <li onClick={gotop}>
             <NavLink
               to="/resources"
               onClick={() => setshowmanu(!showmanu)}
@@ -81,7 +84,7 @@ function Header() {
               Resources
             </NavLink>
           </li>
-          <li>
+          <li onClick={gotop}>
             <Link
               to="/contact"
               onClick={() => setshowmanu(!showmanu)}
@@ -93,16 +96,27 @@ function Header() {
         </ul>
         <div className="flex justify-between items-center">
           <Link onClick={hidden} to="/">
-            <img src={logom} alt="brand logo" className="block xll:hidden" />
+            <img
+              src={logom}
+              alt="brand logo"
+              className="block xll:hidden"
+              onClick={gotop}
+            />
             <img
               src={logol}
               alt="brand logo"
               className="hidden xll:block 3xl:hidden"
+              onClick={gotop}
             />
-            <img src={logop} alt="brand logo" className="hidden 3xl:block" />
+            <img
+              src={logop}
+              alt="brand logo"
+              className="hidden 3xl:block"
+              onClick={gotop}
+            />
           </Link>
           <ul className="hidden xll:flex gap-6">
-            <li>
+            <li onClick={gotop}>
               <NavLink
                 to="/"
                 className="py-2.5 px-4.8 text-sm font-medium text-gray-50 border border-transparent rounded-md transition-all duration-200 ease-in 3xl:py-3.5 3xl:px-6 3xl:rounded-[10px] 3xl:text-lg 3xl:leading-150"
@@ -110,7 +124,7 @@ function Header() {
                 Home
               </NavLink>
             </li>
-            <li>
+            <li onClick={gotop}>
               <NavLink
                 to="/news"
                 className="py-2.5 px-4.8 text-sm font-medium text-gray-50 border border-transparent rounded-md transition-all duration-200 ease-in 3xl:py-3.5 3xl:px-6 3xl:rounded-[10px] 3xl:text-lg 3xl:leading-150"
@@ -118,7 +132,7 @@ function Header() {
                 News
               </NavLink>
             </li>
-            <li>
+            <li onClick={gotop}>
               <NavLink
                 to="/podcuste"
                 className="py-2.5 px-4.8 text-sm font-medium text-gray-50 border border-transparent rounded-md transition-all duration-200 ease-in 3xl:py-3.5 3xl:px-6 3xl:rounded-[10px] 3xl:text-lg 3xl:leading-150"
@@ -126,7 +140,7 @@ function Header() {
                 Podcasts
               </NavLink>
             </li>
-            <li>
+            <li onClick={gotop}>
               <NavLink
                 to="/resources"
                 className="py-2.5 px-4.8 text-sm font-medium text-gray-50 border border-transparent rounded-md transition-all duration-200 ease-in 3xl:py-3.5 3xl:px-6 3xl:rounded-[10px] 3xl:text-lg 3xl:leading-150"
