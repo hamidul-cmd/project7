@@ -71,40 +71,56 @@ function Explore() {
       <section>
         {explore.map((data) => {
           return (
-            <section className="py-10 xll:py-14.5 3xl:py-20 border-b border-dark-15 px-4 xll:px-20 3xl:px-36.6">
-              <div>
-                <div>
-                  <img src={data.img} alt="img" />
+            <section className="py-10 xll:py-14.5 3xl:py-20 border-b border-dark-15 px-4 xll:px-20 3xl:px-36.6 xll:flex xll:justify-between">
+              <div className="flex justify-between items-center mb-7.5 xll:w-[305px] xll:block xll:mb-0 3xl:w-[384px]">
+                <div className="flex items-center gap-2 xll:gap-2.5 3xl:gap-4">
+                  <img
+                    src={data.img}
+                    alt="img"
+                    className="h-14.5 w-14.5 3xl:h-20 3xl:w-20 block"
+                  />
                   <div>
-                    <h4>{data.name}</h4>
-                    <h5>{data.job}</h5>
+                    <h4 className="text-lg font-semibold text-white leading-150 tracking-tight 3xl:text-xl 3xl:leading-150 3xl:mb-0.5">
+                      {data.name}
+                    </h4>
+                    <h5 className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+                      {data.job}
+                    </h5>
                   </div>
                 </div>
-                <Link className="xll:hidden">
-                  <span>View Blog</span>
-                  <div>
-                    <svg
-                      className="h-5 w-5 3xl:h-6 3xl:w-6"
-                      viewBox="0 0 18 19"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M6.1875 3.3125L14.625 3.3125C14.7742 3.3125 14.9173 3.37176 15.0227 3.47725C15.1282 3.58274 15.1875 3.72582 15.1875 3.875V12.3125C15.1875 12.6232 14.9357 12.875 14.625 12.875C14.3143 12.875 14.0625 12.6232 14.0625 12.3125V5.233L3.77275 15.5227C3.55308 15.7424 3.19692 15.7424 2.97725 15.5227C2.75758 15.3031 2.75758 14.9469 2.97725 14.7273L13.267 4.4375L6.1875 4.4375C5.87684 4.4375 5.625 4.18566 5.625 3.875C5.625 3.56434 5.87684 3.3125 6.1875 3.3125Z"
-                        fill="#FFD11A"
-                      />
-                    </svg>
-                  </div>
-                </Link>
+                <div className="xll:hidden">
+                  <Link className=" black">
+                    <span>View Blog</span>
+                    <div>
+                      <svg
+                        className="h-5 w-5 3xl:h-6 3xl:w-6"
+                        viewBox="0 0 18 19"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M6.1875 3.3125L14.625 3.3125C14.7742 3.3125 14.9173 3.37176 15.0227 3.47725C15.1282 3.58274 15.1875 3.72582 15.1875 3.875V12.3125C15.1875 12.6232 14.9357 12.875 14.625 12.875C14.3143 12.875 14.0625 12.6232 14.0625 12.3125V5.233L3.77275 15.5227C3.55308 15.7424 3.19692 15.7424 2.97725 15.5227C2.75758 15.3031 2.75758 14.9469 2.97725 14.7273L13.267 4.4375L6.1875 4.4375C5.87684 4.4375 5.625 4.18566 5.625 3.875C5.625 3.56434 5.87684 3.3125 6.1875 3.3125Z"
+                          fill="#FFD11A"
+                        />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
               </div>
-              <div>
-                <h5>{data.date}</h5>
-                <h3>{data.tittle}</h3>
-                <p>{data.discribtion}</p>
-                <div>
-                  <div>
+              <div className="xll:w-[768px] 3xl:w-[950px]">
+                <h5 className="text-base leading-150 tracking-tight font-semibold text-gray-60 mb-5 xll:text-lg xll:leading-150 xll:mb-6 3xl:text-xl 3xl:leading-150 3xl:mb-7.5">
+                  {data.date}
+                </h5>
+                <h3 className="text-lg font-semibold leading-150 tracking-tight text-white mb-1 xll:text-[22px] xll:mb-1.5 3xl:text-[26px] 3xl:leading-150 3xl:mb-2.5">
+                  {data.tittle}
+                </h3>
+                <p className="text-sm leading-150 tracking-tight text-gray-60 mb-5 pr-4 xll:text-base xll:leading-150 xll:mb-6 3xl:text-lg 3xl:leading-150 3xl:mb-7.5 xll:pr-0">
+                  {data.discribtion}
+                </p>
+                <div className="flex gap-2 3xl:gap-2.5">
+                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1">
                     <div>
                       <svg
                         className="h-5 w-5 3xl:h-6 3xl:w-6"
@@ -120,9 +136,11 @@ function Explore() {
                         />
                       </svg>
                     </div>
-                    <span>{data.like}</span>
+                    <span className="text-sm leading-150 tracking-tight text-gray-60  3xl:text-lg 3xl:leading-150">
+                      {data.like}
+                    </span>
                   </div>
-                  <div>
+                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1">
                     <div>
                       <svg
                         className="h-5 w-5 3xl:h-6 3xl:w-6"
@@ -139,9 +157,11 @@ function Explore() {
                         />
                       </svg>
                     </div>
-                    <span>{data.comment}</span>
+                    <span className="text-sm leading-150 tracking-tight text-gray-60  3xl:text-lg 3xl:leading-150">
+                      {data.comment}
+                    </span>
                   </div>
-                  <div>
+                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1">
                     <div>
                       <svg
                         className="h-5 w-5 3xl:h-6 3xl:w-6"
@@ -158,7 +178,9 @@ function Explore() {
                         />
                       </svg>
                     </div>
-                    <span>{data.share}</span>
+                    <span className="text-sm leading-150 tracking-tight text-gray-60 3xl:text-lg 3xl:leading-150">
+                      {data.share}
+                    </span>
                   </div>
                 </div>
               </div>

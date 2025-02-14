@@ -469,6 +469,7 @@ function Home() {
       </section>
       <CommonTittle capsul="A Knowledge Treasure Trove"tittle="Explore FutureTech's In-Depth Blog Posts" button="View All Blogs" />
       <Explore/>
+      <CommonTittle capsul="Your Gateway to In-Depth Information"tittle="Unlock Valuable Knowledge with FutureTech's Resources" button="View All Resources" />
     </>
   );
 }
