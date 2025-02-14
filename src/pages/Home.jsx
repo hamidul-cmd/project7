@@ -6,8 +6,9 @@ import hero1 from "../assets/hero1.png";
 import hero2 from "../assets/hero2.png";
 import hero3 from "../assets/hero3.png";
 import hero4 from "../assets/hero4.png";
-import { Link } from "react-router";
+import { data, Link } from "react-router";
 import CommonTittle from "../Components/CommonTittle";
+import Explore from "../Components/Explore";
 
 function Home() {
   let quality = [
@@ -26,6 +27,24 @@ function Home() {
     {
       tittle: "Authoritative",
       pera: "Written by our team of tech experts and industry professionals.",
+    },
+  ];
+  let depth = [
+    {
+      tittle: "Depth",
+      pera: "500+ research articles for in-depth understanding.",
+    },
+    {
+      tittle: "Graphics",
+      pera: "Visual aids and infographics to enhance comprehension.",
+    },
+    {
+      tittle: "Trends",
+      pera: "Explore emerging trends in future technology research.",
+    },
+    {
+      tittle: "Contributors",
+      pera: "Contributions from tech researchers and academics.",
     },
   ];
   return (
@@ -354,6 +373,102 @@ function Home() {
         </div>
       </section>
       <CommonTittle capsul="Unlock the Power of" tittle="FutureTech Features" />
+      <section className="px-4 xll:flex xll:items-center xll:px-20 xll:gap-14.5 border-b border-dark-15 3xl:px-36.6 3xl:gap-20">
+        <div className="py-12.5 xll:w-[413px] 3xl:w-[519px] xll:py-0">
+          <div className="w-fit mb-5 xll:mb-10 3xl:mb-12.5">
+            <svg
+              className="h-12.5 w-12.5 xll:h-14.5 xll:w-14.5 3xl:h-20 3xl:w-20"
+              viewBox="0 0 60 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M40.5 41C48.5048 39.0731 54 35.0949 54 30.5C54 25.9051 48.5048 21.9269 40.5 20C41.3235 23.1594 41.787 26.7257 41.787 30.5C41.787 34.2743 41.3235 37.8406 40.5 41Z"
+                fill="#404040"
+              />
+              <path
+                d="M19.5 41C11.4952 39.0731 6 35.0949 6 30.5C6 25.9051 11.4952 21.9269 19.5 20C18.6765 23.1594 18.213 26.7257 18.213 30.5C18.213 34.2743 18.6765 37.8406 19.5 41Z"
+                fill="#404040"
+              />
+              <path
+                d="M19.5 41C21.4269 49.0048 25.4051 54.5 30 54.5C34.5949 54.5 38.5731 49.0048 40.5 41C37.3406 41.8235 33.7743 42.287 30 42.287C26.2257 42.287 22.6594 41.8235 19.5 41Z"
+                fill="#FFD11A"
+              />
+              <path
+                d="M19.5 20C21.4269 11.9952 25.4051 6.5 30 6.5C34.5949 6.5 38.5731 11.9952 40.5 20C37.3406 19.1765 33.7743 18.713 30 18.713C26.2257 18.713 22.6594 19.1765 19.5 20Z"
+                fill="#FFD11A"
+              />
+            </svg>
+          </div>
+          <h3 className="text-2xl font-semibold tracking-tight leading-150 text-white mb-1.5 3xl:text-3xl xll:leading-150 xll:mb-2.5 3xl:text-[40px] 3xl:mb-4 ">
+            Future Technology Blog
+          </h3>
+          <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+            Stay informed with our blog section dedicated to future technology.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 px-4 py-7.5 gap-2.5 border-t border-dark-15 xll:grid-cols-2 xll:gap-5 xll:p-14.5 xll:pr-0 xll:border-l xll:border-t-0 3xl:p-20 3xl:pr-0">
+          {quality.map((data) => {
+            return (
+              <div className="p-6 bg-dark-10 border border-dark-15 rounded-[10px] xll:p-7.5 xll:w-[363px] 3xl:w-[443px] 3xl:p-10 3xl:rounded-xl">
+                <h4 className="text-lg font-medium leading-150 tracking-tight text-white mb-1 xll:text-xl xll:leading-150 xll:mb-4 3xl:text-2xl 3xl:leading-150 3xl:mb-5">
+                  {data.tittle}
+                </h4>
+                <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+                  {data.pera}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      <section className="px-4 xll:flex xll:items-center xll:px-20 xll:gap-14.5 border-b border-dark-15 3xl:px-36.6 3xl:gap-20">
+        <div className="py-12.5 xll:w-[413px] 3xl:w-[519px] xll:py-0">
+          <div className="w-fit mb-5 xll:mb-10 3xl:mb-12.5">
+            <svg
+              className="h-12.5 w-12.5 xll:h-14.5 xll:w-14.5 3xl:h-20 3xl:w-20"
+              viewBox="0 0 70 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.0952 41.9509V60.5H53.2319V41.9509H16.0952Z"
+                fill="#FFD11A"
+              />
+              <path
+                d="M53.2241 41.9349L69.2876 32.6604L50.7193 0.500048L34.6558 9.77458L53.2241 41.9349Z"
+                fill="#404040"
+              />
+              <path
+                d="M34.6319 9.79968L18.5684 0.525146L2.67029e-05 32.6855L16.0635 41.96L34.6319 9.79968Z"
+                fill="#404040"
+              />
+            </svg>
+          </div>
+          <h3 className="text-2xl font-semibold tracking-tight leading-150 text-white mb-1.5 3xl:text-3xl xll:leading-150 xll:mb-2.5 3xl:text-[40px] 3xl:mb-4 ">
+            Research Insights Blogs
+          </h3>
+          <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+            Dive deep into future technology concepts with our research section.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 px-4 py-7.5 gap-2.5 border-t border-dark-15 xll:grid-cols-2 xll:gap-5 xll:p-14.5 xll:pr-0 xll:border-l xll:border-t-0 3xl:p-20 3xl:pr-0">
+          {depth.map((data) => {
+            return (
+              <div className="p-6 bg-dark-10 border border-dark-15 rounded-[10px] xll:p-7.5 xll:w-[363px] 3xl:w-[443px] 3xl:p-10 3xl:rounded-xl">
+                <h4 className="text-lg font-medium leading-150 tracking-tight text-white mb-1 xll:text-xl xll:leading-150 xll:mb-4 3xl:text-2xl 3xl:leading-150 3xl:mb-5">
+                  {data.tittle}
+                </h4>
+                <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+                  {data.pera}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      <CommonTittle capsul="A Knowledge Treasure Trove"tittle="Explore FutureTech's In-Depth Blog Posts" button="View All Blogs" />
+      <Explore/>
     </>
   );
 }

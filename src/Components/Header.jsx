@@ -95,7 +95,7 @@ function Header() {
           </li>
         </ul>
         <div className="flex justify-between items-center">
-          <Link onClick={hidden} to="/">
+          <Link onClick={hidden} to="/" className="select-none">
             <img
               src={logom}
               alt="brand logo"
