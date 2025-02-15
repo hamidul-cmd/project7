@@ -6,9 +6,17 @@ import hero1 from "../assets/hero1.png";
 import hero2 from "../assets/hero2.png";
 import hero3 from "../assets/hero3.png";
 import hero4 from "../assets/hero4.png";
-import { data, Link } from "react-router";
+import { Link } from "react-router";
 import CommonTittle from "../Components/CommonTittle";
 import Explore from "../Components/Explore";
+import ebook1 from "../assets/ebook1.png";
+import ebook2 from "../assets/ebook2.png";
+import grid1 from "../assets/grid1.png";
+import grid2 from "../assets/grid2.png";
+import grid3 from "../assets/grid3.png";
+import grid4 from "../assets/grid4.png";
+import grid5 from "../assets/grid5.png";
+import grid6 from "../assets/grid6.png";
 
 function Home() {
   let quality = [
@@ -45,6 +53,50 @@ function Home() {
     {
       tittle: "Contributors",
       pera: "Contributions from tech researchers and academics.",
+    },
+  ];
+  let testimorneal = [
+    {
+      img: grid1,
+      name: "Sarah Thompson",
+      address: "San Francisco, USA",
+      comment:
+        "The ebooks on AI in education have been a game-changer for my research. They provide in-depth insights and case studies that are invaluable for staying updated.",
+    },
+    {
+      img: grid2,
+      name: "Raj Patel",
+      address: "Mumbai, India",
+      comment:
+        "The whitepapers on renewable energy strategies have greatly influenced my work. They offer detailed data and analysis, helping me make informed decisions.",
+    },
+    {
+      img: grid3,
+      name: "Emily Adams",
+      address: "London, UK",
+      comment:
+        "The AI in healthcare reports have been an essential resource for our hospital. They highlight the latest innovations and best practices, improving patient care.",
+    },
+    {
+      img: grid4,
+      name: "Alan Jackson",
+      address: "Houston, USA",
+      comment:
+        "The reports on space mining prospects have fueled my passion for space exploration. They provide a comprehensive view of what lies beyond Earth.",
+    },
+    {
+      img: grid5,
+      name: "Jessica Miller",
+      address: "Boston, USA",
+      comment:
+        "The research papers on genomic breakthroughs have been a goldmine of information. They've shaped the direction of my research in genomics.",
+    },
+    {
+      img: grid6,
+      name: "Diego Lopez",
+      address: "Barcelona, Spain",
+      comment:
+        "The ebooks on renewable energy strategies have given me the insights I needed to pivot our startup toward sustainability.",
     },
   ];
   return (
@@ -467,9 +519,393 @@ function Home() {
           })}
         </div>
       </section>
-      <CommonTittle capsul="A Knowledge Treasure Trove"tittle="Explore FutureTech's In-Depth Blog Posts" button="View All Blogs" />
-      <Explore/>
-      <CommonTittle capsul="Your Gateway to In-Depth Information"tittle="Unlock Valuable Knowledge with FutureTech's Resources" button="View All Resources" />
+      <CommonTittle
+        capsul="A Knowledge Treasure Trove"
+        tittle="Explore FutureTech's In-Depth Blog Posts"
+        button="View All Blogs"
+      />
+      <Explore />
+      <CommonTittle
+        capsul="Your Gateway to In-Depth Information"
+        tittle="Unlock Valuable Knowledge with FutureTech's Resources"
+        button="View All Resources"
+      />
+      <section className="px-4 xll:px-20 3xl:px-36.6 xll:flex xll:items-center xll:gap-14.5 3xl:gap-20 border-b border-dark-15">
+        <div className="pt-10 mb-10 xll:w-[413px] 3xl:w-[519px]">
+          <div className="mb-6 w-fit xll:mb-7.5 3xl:mb-12.5">
+            <svg
+              className="h-12.5 w-12.5 xll:h-14.5 xll:w-14.5 3xl:h-20 3xl:w-20"
+              viewBox="0 0 60 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28.5 35C28.5 26.3674 53.6449 11.001 52.4594 16.7595C49.9819 28.7935 49.9819 41.2065 52.4594 53.2405C53.6449 58.999 28.5 43.6326 28.5 35Z"
+                fill="#FFD11A"
+              />
+              <path
+                d="M31.5 26C31.5 34.6326 6.35514 49.999 7.54064 44.2405C10.0181 32.2065 10.0181 19.7935 7.54064 7.75952C6.35514 2.00102 31.5 17.3674 31.5 26Z"
+                fill="#404040"
+              />
+            </svg>
+          </div>
+          <h3 className="text-2xl leading-150 tracking-tight text-white mb-1 xll:text-3xl xll:leading-150 xll:mb-2.5 3xl:text-[40px] 3xl:mb-4">
+            Ebooks
+          </h3>
+          <p className="text-sm leading-150 tracking-tight mb-6 text-gray-60 xll:text-base xll:leading-150 xll:mb-7.5 3xl:text-xl  3xl:mb-12.5">
+            Explore our collection of ebooks covering a wide spectrum of future
+            technology topics.
+          </p>
+          <Link className="flex black gap-1 bg-dark-10 justify-center mb-5 xll:mb-10 3xl:mb-14.5">
+            <span>Download Ebooks Now</span>
+            <div>
+              <svg
+                className="h-5 w-5 3xl:h-6 3xl:w-6"
+                viewBox="0 0 18 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.1875 3.3125L14.625 3.3125C14.7742 3.3125 14.9173 3.37176 15.0227 3.47725C15.1282 3.58274 15.1875 3.72582 15.1875 3.875V12.3125C15.1875 12.6232 14.9357 12.875 14.625 12.875C14.3143 12.875 14.0625 12.6232 14.0625 12.3125V5.233L3.77275 15.5227C3.55308 15.7424 3.19692 15.7424 2.97725 15.5227C2.75758 15.3031 2.75758 14.9469 2.97725 14.7273L13.267 4.4375L6.1875 4.4375C5.87684 4.4375 5.625 4.18566 5.625 3.875C5.625 3.56434 5.87684 3.3125 6.1875 3.3125Z"
+                  fill="#FFD11A"
+                />
+              </svg>
+            </div>
+          </Link>
+          <div className="flex items-center justify-between px-7.5 py-5 border border-dark-15 rounded-lg bg-dark-10 xll:p-5 xll:gap-7.5 xll:w-fit 3xl:p-7.5 3xl:gap-12.5">
+            <div>
+              <h5 className="text-sm leading-150 tracking-tight mb-0.5 text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+                Downloaded By
+              </h5>
+              <h4 className="text-lg font-semibold leading-150 tracking-tight text-white xll:text-xl xll:leading-150 3xl:text-2xl 3xl:leading-150">
+                10k + Users
+              </h4>
+            </div>
+            <div className="flex space-x-[-9px] p-2 bg-dark-8 rounded-xl 3xl:p-2.5">
+              <img src={hero1} alt="mini img" className="block" />
+              <img src={hero2} alt="mini img" className="block" />
+              <img src={hero3} alt="mini img" className="block" />
+              <img src={hero4} alt="mini img" className="block" />
+            </div>
+          </div>
+        </div>
+        <div className="py-10 border-y border-dark-15 xll:border-l xll:border-y-0 xll:py-14.5 xll:pl-14.5 3xl:p-20 3xl:pr-0">
+          <div className="mb-6 xll:flex xll:justify-between xll:items-center xll:gap-5 3xl:mb-7.5">
+            <h4 className="text-lg leading-150 tracking-tight text-white font-semibold mb-2.5 xll:text-xl xll:leading-150 xll:mb-0 3xl:text-2xl 3xl:leading-150">
+              Variety of Topics
+            </h4>
+            <p className="text-sm leading-150 text-gray-60 tracking-tight xll:w-[528px] xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:w-[654px]">
+              Topics include AI in education (25%), renewable energy (20%),
+              healthcare (15%), space exploration (25%), and biotechnology
+              (15%).
+            </p>
+          </div>
+          <div className="mb-6 3xl:mb-7.5">
+            <img
+              src={ebook1}
+              alt=""
+              className="block w-full h-[169px] xll:h-[257px] 3xl:h-[332px]"
+            />
+          </div>
+          <div className="xll:flex xll:gap-4 xll:mb-6 3xl:gap-5 3xl:mb-7.5">
+            <div className="p-5 bg-dark-10 border border-dark-15 rounded-lg mb-4 xll:p-6 xll:mb-0 3xl:p-7.5 3xl:rounded-xl">
+              <h5 className="text-sm leading-150 tracking-tight text-gray-60 mb-0.5 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:mb-1">
+                Total Whitepapers
+              </h5>
+              <h4 className="text-base leading-150 tracking-tight font-semibold text-white xll:text-lg xll:leading-150 3xl:text-xl 3xl:leading-150">
+                Over 50 whitepapers
+              </h4>
+            </div>
+            <div className="p-5 bg-dark-10 border border-dark-15 rounded-lg mb-4 flex items-center justify-between xll:grow xll:p-6 xll:mb-0">
+              <div>
+                <h5 className="text-sm leading-150 tracking-tight text-gray-60 mb-0.5 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:mb-1">
+                  Download Formats
+                </h5>
+                <h4 className="text-base leading-150 tracking-tight font-semibold text-white xll:text-lg xll:leading-150 3xl:text-xl 3xl:leading-150">
+                  PDF format for access.
+                </h4>
+              </div>
+              <Link className="black flex items-center gap-1 bg-dark-8">
+                <span>Preview</span>
+                <div>
+                  <svg
+                    className="h-5 w-5 3xl:h-6 3xl:w-6"
+                    viewBox="0 0 20 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.0023 9.52301C18.2153 9.79098 18.3332 10.1391 18.3332 10.5001C18.3332 10.8611 18.2153 11.2092 18.0023 11.4772C16.6536 13.1251 13.5836 16.3334 9.99984 16.3334C6.4161 16.3334 3.34616 13.1251 1.99744 11.4772C1.78442 11.2092 1.6665 10.8611 1.6665 10.5001C1.6665 10.1391 1.78442 9.79098 1.99744 9.52301C3.34616 7.87509 6.4161 4.66675 9.99984 4.66675C13.5836 4.66675 16.6536 7.87509 18.0023 9.52301Z"
+                      stroke="#FFD11A"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.0003 13.0925C11.4191 13.0925 12.5693 11.9318 12.5693 10.5C12.5693 9.06814 11.4191 7.90741 10.0003 7.90741C8.58145 7.90741 7.43127 9.06814 7.43127 10.5C7.43127 11.9318 8.58145 13.0925 10.0003 13.0925Z"
+                      stroke="#FFD11A"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="p-5 bg-dark-10 border border-dark-15 rounded-lg xll:p-6">
+            <h5 className="text-sm leading-150 tracking-tight text-gray-60 mb-0.5 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:mb-1">
+              Average Author Expertise
+            </h5>
+            <p className="text-base leading-150 tracking-tight font-medium text-white xll:text-lg xll:leading-150 3xl:text-xl 3xl:leading-150">
+              Ebooks are authored by renowned experts with an average of 15
+              years of experience
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="px-4 xll:px-20 3xl:px-36.6 xll:flex xll:items-center xll:gap-14.5 3xl:gap-20">
+        <div className="pt-10 mb-10 xll:w-[413px] 3xl:w-[519px]">
+          <div className="mb-6 w-fit xll:mb-7.5 3xl:mb-12.5">
+            <svg
+              className="h-12.5 w-12.5 xll:h-14.5 xll:w-14.5 3xl:h-20 3xl:w-20"
+              viewBox="0 0 60 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28.5 35C28.5 26.3674 53.6449 11.001 52.4594 16.7595C49.9819 28.7935 49.9819 41.2065 52.4594 53.2405C53.6449 58.999 28.5 43.6326 28.5 35Z"
+                fill="#FFD11A"
+              />
+              <path
+                d="M31.5 26C31.5 34.6326 6.35514 49.999 7.54064 44.2405C10.0181 32.2065 10.0181 19.7935 7.54064 7.75952C6.35514 2.00102 31.5 17.3674 31.5 26Z"
+                fill="#404040"
+              />
+            </svg>
+          </div>
+          <h3 className="text-2xl leading-150 tracking-tight text-white mb-1 xll:text-3xl xll:leading-150 xll:mb-2.5 3xl:text-[40px] 3xl:mb-4">
+            Ebooks
+          </h3>
+          <p className="text-sm leading-150 tracking-tight mb-6 text-gray-60 xll:text-base xll:leading-150 xll:mb-7.5 3xl:text-xl  3xl:mb-12.5">
+            Explore our collection of ebooks covering a wide spectrum of future
+            technology topics.
+          </p>
+          <Link className="flex black gap-1 bg-dark-10 justify-center mb-5 xll:mb-10 3xl:mb-14.5">
+            <span>Download Ebooks Now</span>
+            <div>
+              <svg
+                className="h-5 w-5 3xl:h-6 3xl:w-6"
+                viewBox="0 0 18 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.1875 3.3125L14.625 3.3125C14.7742 3.3125 14.9173 3.37176 15.0227 3.47725C15.1282 3.58274 15.1875 3.72582 15.1875 3.875V12.3125C15.1875 12.6232 14.9357 12.875 14.625 12.875C14.3143 12.875 14.0625 12.6232 14.0625 12.3125V5.233L3.77275 15.5227C3.55308 15.7424 3.19692 15.7424 2.97725 15.5227C2.75758 15.3031 2.75758 14.9469 2.97725 14.7273L13.267 4.4375L6.1875 4.4375C5.87684 4.4375 5.625 4.18566 5.625 3.875C5.625 3.56434 5.87684 3.3125 6.1875 3.3125Z"
+                  fill="#FFD11A"
+                />
+              </svg>
+            </div>
+          </Link>
+          <div className="flex items-center justify-between px-7.5 py-5 border border-dark-15 rounded-lg bg-dark-10 xll:p-5 xll:gap-7.5 xll:w-fit 3xl:p-7.5 3xl:gap-12.5">
+            <div>
+              <h5 className="text-sm leading-150 tracking-tight mb-0.5 text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+                Downloaded By
+              </h5>
+              <h4 className="text-lg font-semibold leading-150 tracking-tight text-white xll:text-xl xll:leading-150 3xl:text-2xl 3xl:leading-150">
+                10k + Users
+              </h4>
+            </div>
+            <div className="flex space-x-[-9px] p-2 bg-dark-8 rounded-xl 3xl:p-2.5">
+              <img src={hero1} alt="mini img" className="block" />
+              <img src={hero2} alt="mini img" className="block" />
+              <img src={hero3} alt="mini img" className="block" />
+              <img src={hero4} alt="mini img" className="block" />
+            </div>
+          </div>
+        </div>
+        <div className="py-10 border-y border-dark-15 xll:border-l xll:border-y-0 xll:py-14.5 xll:pl-14.5 3xl:p-20 3xl:pr-0">
+          <div className="mb-6 xll:flex xll:justify-between xll:items-center xll:gap-5 3xl:mb-7.5">
+            <h4 className="text-lg leading-150 tracking-tight text-white font-semibold mb-2.5 xll:text-xl xll:leading-150 xll:mb-0 3xl:text-2xl 3xl:leading-150">
+              Variety of Topics
+            </h4>
+            <p className="text-sm leading-150 text-gray-60 tracking-tight xll:w-[528px] xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:w-[654px]">
+              Topics include AI in education (25%), renewable energy (20%),
+              healthcare (15%), space exploration (25%), and biotechnology
+              (15%).
+            </p>
+          </div>
+          <div className="mb-6 3xl:mb-7.5">
+            <img
+              src={ebook2}
+              alt=""
+              className="block w-full h-[169px] xll:h-[257px] 3xl:h-[332px]"
+            />
+          </div>
+          <div className="xll:flex xll:gap-4 xll:mb-6 3xl:gap-5 3xl:mb-7.5">
+            <div className="p-5 bg-dark-10 border border-dark-15 rounded-lg mb-4 xll:p-6 xll:mb-0 3xl:p-7.5 3xl:rounded-xl">
+              <h5 className="text-sm leading-150 tracking-tight text-gray-60 mb-0.5 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:mb-1">
+                Total Whitepapers
+              </h5>
+              <h4 className="text-base leading-150 tracking-tight font-semibold text-white xll:text-lg xll:leading-150 3xl:text-xl 3xl:leading-150">
+                Over 50 whitepapers
+              </h4>
+            </div>
+            <div className="p-5 bg-dark-10 border border-dark-15 rounded-lg mb-4 flex items-center justify-between xll:grow xll:p-6 xll:mb-0">
+              <div>
+                <h5 className="text-sm leading-150 tracking-tight text-gray-60 mb-0.5 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:mb-1">
+                  Download Formats
+                </h5>
+                <h4 className="text-base leading-150 tracking-tight font-semibold text-white xll:text-lg xll:leading-150 3xl:text-xl 3xl:leading-150">
+                  PDF format for access.
+                </h4>
+              </div>
+              <Link className="black flex items-center gap-1 bg-dark-8">
+                <span>Preview</span>
+                <div>
+                  <svg
+                    className="h-5 w-5 3xl:h-6 3xl:w-6"
+                    viewBox="0 0 20 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.0023 9.52301C18.2153 9.79098 18.3332 10.1391 18.3332 10.5001C18.3332 10.8611 18.2153 11.2092 18.0023 11.4772C16.6536 13.1251 13.5836 16.3334 9.99984 16.3334C6.4161 16.3334 3.34616 13.1251 1.99744 11.4772C1.78442 11.2092 1.6665 10.8611 1.6665 10.5001C1.6665 10.1391 1.78442 9.79098 1.99744 9.52301C3.34616 7.87509 6.4161 4.66675 9.99984 4.66675C13.5836 4.66675 16.6536 7.87509 18.0023 9.52301Z"
+                      stroke="#FFD11A"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.0003 13.0925C11.4191 13.0925 12.5693 11.9318 12.5693 10.5C12.5693 9.06814 11.4191 7.90741 10.0003 7.90741C8.58145 7.90741 7.43127 9.06814 7.43127 10.5C7.43127 11.9318 8.58145 13.0925 10.0003 13.0925Z"
+                      stroke="#FFD11A"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="p-5 bg-dark-10 border border-dark-15 rounded-lg xll:p-6">
+            <h5 className="text-sm leading-150 tracking-tight text-gray-60 mb-0.5 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 3xl:mb-1">
+              Average Author Expertise
+            </h5>
+            <p className="text-base leading-150 tracking-tight font-medium text-white xll:text-lg xll:leading-150 3xl:text-xl 3xl:leading-150">
+              Ebooks are authored by renowned experts with an average of 15
+              years of experience
+            </p>
+          </div>
+        </div>
+      </section>
+      <CommonTittle
+        capsul="What Our Readers Say"
+        tittle="Real Words from Real Readers"
+        button="View All Testimonials"
+      />
+      <section className="px-4 xll:px-20 3xl:px-36.6  border-y border-dark-15">
+        <div className="grid__wrapper grid grid-cols-1 xll:grid-cols-3 xll:gap-x-20 overflow-hidden 3xl:gap-x-24.5">
+          {testimorneal.map((data) => {
+            return (
+              <div className="box py-10 xll:py-14.5 3xl:py-20">
+                <div className="flex items-center gap-2.5 justify-center mb-12.5 3xl:gap-3 3xl:mb-14.5">
+                  <div>
+                    <img
+                      src={data.img}
+                      alt=""
+                      className="h-12.5 w-12.5 3xl:h-14.5 3xl:w-14.5"
+                    />
+                  </div>
+                  <div>
+                    <h4 className="text-base font-medium leading-150 text-white xll:text-lg xll:leading-150 3xl:text-xl 3xl:leading-150 3xl:mb-0.5">
+                      {data.name}
+                    </h4>
+                    <h5 className="text-base leading-150 text-dark-40 3xl:text-lg 3xl:leading-150">
+                      {data.address}
+                    </h5>
+                  </div>
+                </div>
+                <div className="p-5 bg-dark-10 border border-dark-15 rounded-[10px] relative 3xl:p-7.5 3xl:pt-12.5 xll:pt-10 pt-7.5">
+                  <p className="text-center text-white text-sm leading-150 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+                    {data.comment}
+                  </p>
+                  <div className="absolute top-0 left-[50%] translate-x-[-50%] translate-y-[-50%] flex gap-1 py-2 px-3 bg-dark-8 border border-dark-15 rounded-full 3xl:py-2.5 3xl:px-4 3xl:gap-[7px]">
+                    <div>
+                      <svg
+                        className="h-5 w-5 3xl:h-6 3xl:w-6"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.13733 1.47145C8.52367 0.812467 9.47633 0.812466 9.86267 1.47145L12.0234 5.15701C12.1644 5.3975 12.3994 5.56821 12.6717 5.62799L16.8446 6.54408C17.5907 6.70788 17.8851 7.61391 17.3777 8.18498L14.5402 11.3789C14.3551 11.5873 14.2653 11.8635 14.2926 12.1409L14.7109 16.3927C14.7857 17.1529 14.0149 17.7129 13.315 17.4068L9.40064 15.6952C9.14522 15.5835 8.85478 15.5835 8.59936 15.6952L4.68496 17.4068C3.98506 17.7128 3.21435 17.1529 3.28913 16.3927L3.70736 12.1409C3.73465 11.8635 3.6449 11.5873 3.45975 11.3789L0.622286 8.18498C0.114944 7.61391 0.40933 6.70788 1.15545 6.54408L5.32833 5.62799C5.60062 5.56821 5.83559 5.3975 5.97658 5.15701L8.13733 1.47145Z"
+                          fill="#FFCE22"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <svg
+                        className="h-5 w-5 3xl:h-6 3xl:w-6"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.13733 1.47145C8.52367 0.812467 9.47633 0.812466 9.86267 1.47145L12.0234 5.15701C12.1644 5.3975 12.3994 5.56821 12.6717 5.62799L16.8446 6.54408C17.5907 6.70788 17.8851 7.61391 17.3777 8.18498L14.5402 11.3789C14.3551 11.5873 14.2653 11.8635 14.2926 12.1409L14.7109 16.3927C14.7857 17.1529 14.0149 17.7129 13.315 17.4068L9.40064 15.6952C9.14522 15.5835 8.85478 15.5835 8.59936 15.6952L4.68496 17.4068C3.98506 17.7128 3.21435 17.1529 3.28913 16.3927L3.70736 12.1409C3.73465 11.8635 3.6449 11.5873 3.45975 11.3789L0.622286 8.18498C0.114944 7.61391 0.40933 6.70788 1.15545 6.54408L5.32833 5.62799C5.60062 5.56821 5.83559 5.3975 5.97658 5.15701L8.13733 1.47145Z"
+                          fill="#FFCE22"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <svg
+                        className="h-5 w-5 3xl:h-6 3xl:w-6"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.13733 1.47145C8.52367 0.812467 9.47633 0.812466 9.86267 1.47145L12.0234 5.15701C12.1644 5.3975 12.3994 5.56821 12.6717 5.62799L16.8446 6.54408C17.5907 6.70788 17.8851 7.61391 17.3777 8.18498L14.5402 11.3789C14.3551 11.5873 14.2653 11.8635 14.2926 12.1409L14.7109 16.3927C14.7857 17.1529 14.0149 17.7129 13.315 17.4068L9.40064 15.6952C9.14522 15.5835 8.85478 15.5835 8.59936 15.6952L4.68496 17.4068C3.98506 17.7128 3.21435 17.1529 3.28913 16.3927L3.70736 12.1409C3.73465 11.8635 3.6449 11.5873 3.45975 11.3789L0.622286 8.18498C0.114944 7.61391 0.40933 6.70788 1.15545 6.54408L5.32833 5.62799C5.60062 5.56821 5.83559 5.3975 5.97658 5.15701L8.13733 1.47145Z"
+                          fill="#FFCE22"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <svg
+                        className="h-5 w-5 3xl:h-6 3xl:w-6"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.13733 1.47145C8.52367 0.812467 9.47633 0.812466 9.86267 1.47145L12.0234 5.15701C12.1644 5.3975 12.3994 5.56821 12.6717 5.62799L16.8446 6.54408C17.5907 6.70788 17.8851 7.61391 17.3777 8.18498L14.5402 11.3789C14.3551 11.5873 14.2653 11.8635 14.2926 12.1409L14.7109 16.3927C14.7857 17.1529 14.0149 17.7129 13.315 17.4068L9.40064 15.6952C9.14522 15.5835 8.85478 15.5835 8.59936 15.6952L4.68496 17.4068C3.98506 17.7128 3.21435 17.1529 3.28913 16.3927L3.70736 12.1409C3.73465 11.8635 3.6449 11.5873 3.45975 11.3789L0.622286 8.18498C0.114944 7.61391 0.40933 6.70788 1.15545 6.54408L5.32833 5.62799C5.60062 5.56821 5.83559 5.3975 5.97658 5.15701L8.13733 1.47145Z"
+                          fill="#FFCE22"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <svg
+                        className="h-5 w-5 3xl:h-6 3xl:w-6"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.13733 1.47145C8.52367 0.812467 9.47633 0.812466 9.86267 1.47145L12.0234 5.15701C12.1644 5.3975 12.3994 5.56821 12.6717 5.62799L16.8446 6.54408C17.5907 6.70788 17.8851 7.61391 17.3777 8.18498L14.5402 11.3789C14.3551 11.5873 14.2653 11.8635 14.2926 12.1409L14.7109 16.3927C14.7857 17.1529 14.0149 17.7129 13.315 17.4068L9.40064 15.6952C9.14522 15.5835 8.85478 15.5835 8.59936 15.6952L4.68496 17.4068C3.98506 17.7128 3.21435 17.1529 3.28913 16.3927L3.70736 12.1409C3.73465 11.8635 3.6449 11.5873 3.45975 11.3789L0.622286 8.18498C0.114944 7.61391 0.40933 6.70788 1.15545 6.54408L5.32833 5.62799C5.60062 5.56821 5.83559 5.3975 5.97658 5.15701L8.13733 1.47145Z"
+                          fill="#FFCE22"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
     </>
   );
 }

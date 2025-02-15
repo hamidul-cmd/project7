@@ -120,7 +120,7 @@ function Explore() {
                   {data.discribtion}
                 </p>
                 <div className="flex gap-2 3xl:gap-2.5">
-                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1">
+                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1 cursor-pointer">
                     <div>
                       <svg
                         className="h-5 w-5 3xl:h-6 3xl:w-6"
@@ -140,7 +140,7 @@ function Explore() {
                       {data.like}
                     </span>
                   </div>
-                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1">
+                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1 cursor-pointer">
                     <div>
                       <svg
                         className="h-5 w-5 3xl:h-6 3xl:w-6"
@@ -161,7 +161,7 @@ function Explore() {
                       {data.comment}
                     </span>
                   </div>
-                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1">
+                  <div className="flex gap-0.5 px-3 py-1.5 bg-dark-10 border border-dark-15 rounded-full 3xl:py-2 3xl:px-4 3xl:gap-1 cursor-pointer">
                     <div>
                       <svg
                         className="h-5 w-5 3xl:h-6 3xl:w-6"
