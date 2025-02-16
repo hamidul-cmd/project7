@@ -380,7 +380,7 @@ function Footer() {
             <a href="" className="block text-sm leading-130 3xl:text-lg 3xl:leading-130">Privacy Policy</a>
           </div>
           <div className="sm:order-3">
-            <p className="text-sm leading-130 3xl:text-lg 3xl:leading-130">&copy; 2024 FutureTech. All rights reserved.</p>
+            <p className="text-sm leading-130 3xl:text-lg 3xl:leading-130">&copy; 2024 FutureTech. All rights resevved.</p>
           </div>
         </section>
       </footer>
