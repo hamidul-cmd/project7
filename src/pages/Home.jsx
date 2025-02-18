@@ -17,6 +17,7 @@ import grid3 from "../assets/grid3.png";
 import grid4 from "../assets/grid4.png";
 import grid5 from "../assets/grid5.png";
 import grid6 from "../assets/grid6.png";
+import Revolution from "../Components/Revolution";
 
 function Home() {
   let quality = [
@@ -906,6 +907,7 @@ function Home() {
           })}
         </div>
       </section>
+          <Revolution/>
     </>
   );
 }
