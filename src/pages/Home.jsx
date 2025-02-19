@@ -907,7 +907,7 @@ function Home() {
           })}
         </div>
       </section>
-          <Revolution/>
+      <Revolution />
     </>
   );
 }
