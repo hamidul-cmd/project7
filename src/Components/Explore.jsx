@@ -48,22 +48,22 @@ function Explore() {
     <>
       <section className="h-[97px] relative overflow-hidden xll:h-[150px] 3xl:h-[190px] border-y border-dark-15">
         <div className="box px-4 py-5 flex gap-3.5 absolute top-0 left-0 xll:py-10 xll:px-20 3xl:px-36.6 3xl:py-12.5 3xl:gap-5">
-          <button className="w-[151px] py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
+          <button className=" block w-[150px] whitespace-nowrap px-4 py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
             All
           </button>
-          <button className="w-[151px] py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
+          <button className="block w-[150px] whitespace-nowrap px-4 py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
             Quantum Computing
           </button>
-          <button className="w-[151px] py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
+          <button className="block w-[150px] whitespace-nowrap px-4 py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
             AI Ethics
           </button>
-          <button className="w-[151px] py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
+          <button className="block w-[150px] whitespace-nowrap px-4 py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
             Space Exploration
           </button>
-          <button className="w-[151px] py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
+          <button className="block w-[150px] whitespace-nowrap px-4 py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
             Biotechnology
           </button>
-          <button className="w-[151px] py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
+          <button className="block w-[150px] whitespace-nowrap px-4 py-4.8 border border-dark-15 rounded-md text-sm leading-150 tracking-tight text-gray-60 xll:py-6 xll:w-[201px] 3xl:w-[250px] 3xl:py-7.5 3xl:rounded-lg 3xl:text-lg 3xl:leading-150 cursor-pointer hover:bg-dark-10 hover:text-white transition-all duration-200 ease-in-out">
             Renewable Energy
           </button>
         </div>
