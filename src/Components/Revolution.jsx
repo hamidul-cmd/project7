@@ -93,7 +93,9 @@ function Revolution() {
             return (
               <div className="bg-dark-10 p-6 border border-dark-15 rounded-[10px] xll:p-7.5 3xl:p-10 3xl:rounded-xl">
                 <div className="flex items-center justify-between text-white mb-2.5 xll:mb-4 3xl:mb-5">
-                  <h4 className="text-base font-semibold leading-150 tracking-tight xll:text-lg 3xl:text-[22px]">{data.tittle}</h4>
+                  <h4 className="text-base font-semibold leading-150 tracking-tight xll:text-lg 3xl:text-[22px]">
+                    {data.tittle}
+                  </h4>
                   <div className="p-2.5 rounded-full bg-yellow-55 xll:p-3 3xl:p-3.5">
                     <svg
                       className="h-5 w-5 3xl:h-6 3xl:w-6"
@@ -110,7 +112,9 @@ function Revolution() {
                     </svg>
                   </div>
                 </div>
-                <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:leading-150 3xl:text-lg">{data.pera}</p>
+                <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:leading-150 3xl:text-lg">
+                  {data.pera}
+                </p>
               </div>
             );
           })}
