@@ -9,7 +9,7 @@ function CommonTittle({capsul, tittle, button}) {
           <div className="py-1 px-2 bg-dark-20 rounded-sm mb-2.5 w-fit 3xl:py-1.5 3xl:px-2.5 3xl:mb-4">
             <h4 className="text-sm font-medium leading-150 tracking-tight xll:text-base xll:leading-150 3xl:text-xl 3xl:leading-150">{capsul}</h4>
           </div>
-          <h2 className="text-[28px] font-medium leading-130 tracking-tight mb-7.5 xll:text-[44px] xll:mb-0 3xl:text-[58px] max-w-[897px]">{tittle}</h2>
+          <h2 className="text-[28px] font-medium leading-130 tracking-tight mb-7.5 xll:text-[44px] xll:mb-0 3xl:text-[58px] max-w-[960px]">{tittle}</h2>
         </div>
         {button && <div>
           <Link className="black bg-dark-8 justify-center">

@@ -11,10 +11,10 @@ function CommonHero({ tittle1, tittle2, pera }) {
           {tittle1}
         </h1>
         <div className="xll:flex xll:gap-14.5 xll:items-center 3xl:gap-20">
-          <h1 className="hidden xll:block text-[55px] font-medium leading-130 tracking-tight xl:text-[80px]">
+          <h1 className="hidden xll:block text-[55px] font-medium leading-130 tracking-tight xl:text-[80px] whitespace-nowrap">
             {tittle2}
           </h1>
-          <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+          <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150 max-w-[900px]">
             {pera}
           </p>
         </div>
