@@ -84,10 +84,10 @@ function Podcuste() {
         tittle="Latest Podcast Episodes"
       />
       <section className="px-4 xll:px-20 3xl:px-36.6 py-10 xll:py-14.5 3xl:py-20">
-        <div className="grid grid-cols-1 gap-20 xll:grid-cols-3 xll:gap-x-14.5 xll:gap-y-24.6 3xl:gap-y-[160px] 3xl:gap-x-[92px] overflow-hidden">
+        <div className="grid grid-cols-1 gap-20 xll:grid-cols-3 xll:gap-x-14.5 xll:gap-y-24.6 3xl:gap-y-[160px] 3xl:gap-x-[92px] overflow-hidden h-fit">
           {aigrid1.map((data) => {
             return (
-              <div className="relative before:content-[''] before:absolute before:w-[1px] before:h-[100vh] before:right-[-30px] before:bg-dark-15 3xl:before:right-[-46px] after:content-[''] after:h-[1px] after:w-[100vw] after:absolute after:bottom-[-60px] 3xl:bottom-[-80px] after:bg-dark-15">
+              <div className="relative before:content-[''] before:absolute before:hidden xll:before:block before:h-[100vh] before:w-[1px] before:bg-dark-15 xll:before:right-[-30px] 3xl:before:right-[-46px] after:content-[''] after:absolute after:h-[1px] after:w-[100vw] after:bg-dark-15 xll:after:bottom-[-60px] 3xl:after:bottom-[-80px] after:bottom-[-40px]">
                 <div className="img relative mb-5 xll:mb-6 3xl:mb-7.5">
                   <img
                     src={data.img}
@@ -149,7 +149,7 @@ function Podcuste() {
           {window.innerWidth >= 1440 &&
             aigrid2.map((data) => {
               return (
-                <div className="relative before:content-[''] before:absolute before:w-[1px] before:h-[100vh] before:right-[-30px] before:bg-dark-15 3xl:before:right-[-46px] after:content-[''] after:h-[1px] after:w-[100vw] after:absolute after:bottom-[-60px] 3xl:bottom-[-80px] after:bg-dark-15">
+                <div className="relative before:content-[''] before:absolute before:hidden xll:before:block before:h-[100vh] before:w-[1px] before:bg-dark-15 xll:before:right-[-30px] 3xl:before:right-[-46px] after:content-[''] after:absolute after:h-[1px] after:w-[100vw] after:bg-dark-15 xll:after:bottom-[-60px] 3xl:after:bottom-[-80px] after:bottom-[-40px]">
                   <div className="img relative mb-5 xll:mb-6 3xl:mb-7.5">
                     <img
                       src={data.img}
