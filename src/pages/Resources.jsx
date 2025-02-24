@@ -3,14 +3,13 @@ import CommonHero from "../Components/CommonHero";
 import CommonTittle from "../Components/CommonTittle";
 import Aibox from "../Components/Aibox";
 import Subscribtionbox from "../Components/Subscribtionbox";
-import resourse1 from "../assets/resourse1.png"
-import resourse2 from "../assets/resourse2.png"
+import resourse1 from "../assets/resourse1.png";
+import resourse2 from "../assets/resourse2.png";
 import Revolution from "../Components/Revolution";
-import regrid1 from "../assets/regrid1.png"
-import regrid2 from "../assets/regrid2.png"
-import regrid3 from "../assets/regrid3.png"
+import regrid1 from "../assets/regrid1.png";
+import regrid2 from "../assets/regrid2.png";
+import regrid3 from "../assets/regrid3.png";
 import { Link } from "react-router";
-
 
 function Resources() {
   const herogrid = [
@@ -32,23 +31,23 @@ function Resources() {
     },
   ];
 
-const regrid = [
-  {
-    img: regrid1,
-    tittle: "FutureTech Trends 2024",
-    pera: "An ebook that predicts upcoming technology trends for the next year, including AI developments",
-  },
-  {
-    img: regrid2,
-    tittle: "Space Exploration Ebook",
-    pera: "An ebook that predicts upcoming technology trends for the next year, including AI developments",
-  },
-  {
-    img: regrid3,
-    tittle: "Quantum Computing Whitepaper",
-    pera: "An in-depth whitepaper exploring the principles, applications.",
-  },
-]
+  const regrid = [
+    {
+      img: regrid1,
+      tittle: "FutureTech Trends 2024",
+      pera: "An ebook that predicts upcoming technology trends for the next year, including AI developments",
+    },
+    {
+      img: regrid2,
+      tittle: "Space Exploration Ebook",
+      pera: "An ebook that predicts upcoming technology trends for the next year, including AI developments",
+    },
+    {
+      img: regrid3,
+      tittle: "Quantum Computing Whitepaper",
+      pera: "An in-depth whitepaper exploring the principles, applications.",
+    },
+  ];
 
   return (
     <>
@@ -104,27 +103,39 @@ const regrid = [
         />
       </section>
       <section className="px-4 xll:px-20 3xl:px-36.6">
-          <div className="grid grid-cols-1 overflow-hidden xll:grid-cols-3 xll:gap-14.5 3xl:gap-[92px] border-b border-dark-15">
-            {regrid.map((data)=> {
-              return(
-                <div className="py-10 relative before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-dark-15 before:bottom-[-1px] xll:before:w-[1px] xll:before:h-full xll:before:right-[-30px] xll:py-14.5 3xl:py-20 3xl:before:right-[-45px]">
-                  <div className="mb-5 xll:mb-6 3xl:mb-7.5">
-                    <img src={data.img} alt="" className="w-full h-[223px] block xll:h-[290px]" />
-                  </div>
-                  <div className="mb-5 xll:mb-6 3xl:mb-7.5">
-                    <h3 className="text-base font-semibold leading-150 tracking-tight mb-2.5 text-white xll:text-lg xll:leading-150 xll:mb-2.5 3xl:text-[22px] 3xl:mb-3.5">{data.tittle}</h3>
-                    <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">{data.pera}</p>
-                  </div>
-                  <div className="flex gap-2.5">
-                    <Link className="block black grow justify-center">View Details</Link>
-                    <Link className="block black grow justify-center bg-dark-10">Download PDF Now</Link>
-                  </div>
+        <div className="grid grid-cols-1 overflow-hidden xll:grid-cols-3 xll:gap-14.5 3xl:gap-[92px] border-b border-dark-15">
+          {regrid.map((data) => {
+            return (
+              <div className="py-10 relative before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-dark-15 before:bottom-[-1px] xll:before:w-[1px] xll:before:h-full xll:before:right-[-30px] xll:py-14.5 3xl:py-20 3xl:before:right-[-45px]">
+                <div className="mb-5 xll:mb-6 3xl:mb-7.5">
+                  <img
+                    src={data.img}
+                    alt=""
+                    className="w-full h-[223px] block xll:h-[290px]"
+                  />
                 </div>
-              )
-            })}
-          </div>
+                <div className="mb-5 xll:mb-6 3xl:mb-7.5">
+                  <h3 className="text-base font-semibold leading-150 tracking-tight mb-2.5 text-white xll:text-lg xll:leading-150 xll:mb-2.5 3xl:text-[22px] 3xl:mb-3.5">
+                    {data.tittle}
+                  </h3>
+                  <p className="text-sm leading-150 tracking-tight text-gray-60 xll:text-base xll:leading-150 3xl:text-lg 3xl:leading-150">
+                    {data.pera}
+                  </p>
+                </div>
+                <div className="flex gap-2.5">
+                  <Link className="block black grow justify-center">
+                    View Details
+                  </Link>
+                  <Link className="block black grow justify-center bg-dark-10">
+                    Download PDF Now
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </section>
-      <Revolution/>
+      <Revolution />
     </>
   );
 }

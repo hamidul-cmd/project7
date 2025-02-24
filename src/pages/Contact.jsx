@@ -224,35 +224,75 @@ function Contact() {
         </div>
         <form className="grid grid-cols-1 gap-5 px-5 py-10 xll:w-[808px] xll:p-14.5 xll:pr-0 xll:grid-cols-2 xll:gap-x-12.5 xll:gap-y-7.5 xll:border-l border-dark-15 3xl:w-[997px] 3xl:p-20 3xl:pr-0 3xl:gap-12.5">
           <div>
-            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">First Name</h3>
-            <input type="text" placeholder="Enter First Name" className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40" />
+            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">
+              First Name
+            </h3>
+            <input
+              type="text"
+              placeholder="Enter First Name"
+              className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40"
+            />
           </div>
           <div>
-            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">Last Name</h3>
-            <input type="text" placeholder="Enter Last Name" className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40" />
+            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">
+              Last Name
+            </h3>
+            <input
+              type="text"
+              placeholder="Enter Last Name"
+              className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40"
+            />
           </div>
           <div>
-            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">Email</h3>
-            <input type="email" placeholder="Enter your Email" className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40" />
+            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">
+              Email
+            </h3>
+            <input
+              type="email"
+              placeholder="Enter your Email"
+              className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40"
+            />
           </div>
           <div>
-            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">Phone Number</h3>
-            <input type="number" name="phone" id="phone" placeholder="Enter Phone Number" className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40" />
+            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">
+              Phone Number
+            </h3>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Enter Phone Number"
+              className="block bg-dark-10 p-4 border border-dark-15 rounded-md outline-none w-full placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40"
+            />
           </div>
           <div className="xll:col-span-2">
-            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">Message</h3>
-            <textarea name="massage" id="massage" placeholder="Enter your Message" className="w-full bg-dark-10 p-4 border border-dark-15 rounded-md placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40 h-[127px] outline-none resize-none xll:h-[163px]"></textarea>
+            <h3 className="text-base leading-150 tracking-tight font-medium text-white mb-3">
+              Message
+            </h3>
+            <textarea
+              name="massage"
+              id="massage"
+              placeholder="Enter your Message"
+              className="w-full bg-dark-10 p-4 border border-dark-15 rounded-md placeholder:text-sm placeholder:leading-150 placeholder:text-dark-40 text-sm leading-150 text-dark-40 h-[127px] outline-none resize-none xll:h-[163px]"
+            ></textarea>
           </div>
           <div className="xll:col-span-2 xll:flex xll:justify-between xll:items-center">
             <div className="flex gap-1.5 items-center mb-5">
               <input type="checkbox" name="" id="" />
-              <p className="text-sm leading-150 text-white">I agree with Terms of Use and Privacy Policy</p>
+              <p className="text-sm leading-150 text-white">
+                I agree with Terms of Use and Privacy Policy
+              </p>
             </div>
-            <button type="submit" className="block py-3.5 px-7.5 rounded-lg bg-yellow-55 text-sm font-medium leading-6 text-dark-8 w-full xll:w-fit">Send</button>
+            <button
+              type="submit"
+              className="block py-3.5 px-7.5 rounded-lg bg-yellow-55 text-sm font-medium leading-6 text-dark-8 w-full xll:w-fit"
+            >
+              Send
+            </button>
           </div>
         </form>
       </section>
-      <Revolution/>
+      <Revolution />
     </>
   );
 }
